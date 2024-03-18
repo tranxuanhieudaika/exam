@@ -1,0 +1,161 @@
+/* HEADER */
+
+#header {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: var(--trang);
+    
+  }
+  
+  .head {
+    display: flex;
+    align-items: center;
+  }
+  
+  .head .head-mb {
+    display: flex;
+    align-items: center;
+  }
+  
+  #header .logo-header {
+    width: 50px;
+    height: 100%;
+  }
+  
+  .head h3 a {
+    color: var(--mauchu);
+    text-decoration: none;
+  }
+  
+  .nav-0 .f-menu {
+    display: none;
+  }
+  
+  #header .nav {
+    position: relative;
+    margin-left: 5px;
+  }
+  
+  #header .nav button {
+    display: none;
+  }
+  
+  #header .nav li {
+    margin: 0 10px;
+  }
+  
+  #header .nav a {
+    text-decoration: none;
+    color: var(--mauchu);
+  }
+  
+  .nav .l-first:hover a {
+    border-bottom: 2px solid var(--mauchu-slider);
+  }
+  
+  .nav li i {
+    font-size: 14px;
+  }
+  
+  .nav .l-service {
+    position: relative;
+  }
+  
+  .nav .l-service::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 138px;
+    height: 20px;
+    background-color: transparent;
+    top: 20px;
+    left: 0;
+  }
+  
+  .nav .l-service:hover .nav_list-dichvu{
+    display: block;  
+  }
+  
+  .nav_list-dichvu {
+    list-style: none;
+    display: none;
+    min-width: 510px;
+    position: absolute;
+    background-color: var(--trang);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    top: 155%;
+    left: 0;
+    border-radius: 3px;
+  }
+  
+  .nav_list-dichvu .nav_dichvu-items {
+    padding-bottom: 16px;
+  }
+  
+  .dichvu_items-head {
+    padding-bottom: 4px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 4px;
+    font-size: 13px;
+  }
+  
+  .dichvu_items-content {
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 0;
+  }
+  
+  
+  
+  
+  .search {
+    border: 2px solid orange;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    position: absolute;
+    right: 45px;
+    overflow: hidden;
+  }
+  
+  .search input {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    
+  }
+
+  .icon-serch_header {
+    padding-right: 10px;
+  }
+  
+  .sign-in-up {
+    margin-right: 15px;
+    position: absolute;
+    right: 0;
+  }
+  
+  .sign-in-up a {
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+  }
+  
+  .diadiem .l_tour a {
+    text-decoration: none;
+    color: var(--mauchu);
+    font-size: 15px;
+  }
+  
+  .l_tour li:hover > a {
+    border: none;
+    box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+  }
+  
+  /* HEADER end */

@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --mauchu: #2d4271;
+  --mauchu-slider: #4d4aef;
+  --trang: #fff;
+  --mau-do-btn: #fd5056;
+}
+
+.l_none {
+  list-style-type: none;
+}
+
+
+
+#content {
+  margin: 100px auto;
+  color: var(--mauchu);
+}
+
+#content .lien-he {
+  position: relative;
+  left: 10%;
+}
+
+#content .lien-he h4 {
+  color: var(--mau-do-btn);
+}
+
+#content .gui-thong-tin {
+  margin-bottom: 20px;
+}
+
+#content .gui-thong-tin label {
+  margin-bottom: 4px;
+  font-size: 18px;
+}
+
+.gui-thong-tin #loai-thong-tin {
+  width: 100%;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid var(--mauchu);
+}
+
+.gui-thong-tin #loai-thong-tin:focus {
+  outline: 2px solid var(--mauchu-slider);
+  border: none;
+}
+
+.gui-thong-tin input {
+  width: 100%;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid var(--mauchu);
+}
+
+.gui-thong-tin input:focus {
+  outline: 2px solid var(--mauchu-slider);
+  border: none;
+}
+
+.gui-thong-tin #noi-dung-lh {
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid var(--mauchu);
+}
+
+.gui-thong-tin #noi-dung-lh:focus {
+  outline: 2px solid var(--mauchu-slider);
+  border: none;
+}
+
+.gui-thong-tin .gui-thong-tin-btn {
+  border: none;
+  padding: 5px 15px;
+  background-color: var(--mau-do-btn);
+  color: var(--trang);
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.gui-thong-tin .gui-thong-tin-btn:active {
+  box-shadow: 0 0 15px rgba(241, 162, 136, 0.779);
+}
+
+#footer {
+  color: var(--mauchu);
+}
+
+#footer .container-fluid {
+  background-color: #f9f5f5;
+}
+
+#footer .footer-box p {
+  margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.footer-box .danh-sach-tour li {
+  list-style: none;
+}
+
+.danh-sach-tour li a {
+  text-decoration: none;
+  color: var(--mauchu);
+  font-size: 13px;
+}
+
+.mang-xh .danh-sach-tour {
+  display: flex;
+}
+
+.mang-xh .danh-sach-tour li a {
+  font-size: 24px;
+  margin-right: 16px;
+}
+
+.mang-xh .danh-sach-tour li a:hover {
+  opacity: 0.7;
+}
+
+.mang-xh .phone {
+  background-color: var(--mau-do-btn);
+  padding: 12px;
+  width: 150px;
+  color: var(--trang);
+  text-align: center;
+  border-radius: 10px;
+}

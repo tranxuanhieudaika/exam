@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --mauchu: #2d4271;
+    --mauchu-slider: #4d4aef;
+    --trang: #fff;
+    --mau-do-btn: #fd5056;
+}
+
+
+.l_none {
+    list-style-type: none;
+}
+
+
+#content{    
+    margin: 100px auto;
+    color: var(--mauchu);
+}
+
+
+.tieu-de .box-tieu-de h3 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.form-dang-ky .ghi-chu-form {
+    margin-bottom: 0;
+}
+
+.form-dang-ky .form {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.form label {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.form select,
+.form input {
+    width: 70%;
+    padding: 5px 15px; 
+    border-radius: 5px;
+    border: 1px solid var(--mauchu);
+}
+
+.form #ngayhethan-passport {
+    width: 77%;
+}
+
+.form #diachi,
+.form #ma-gt {
+    width: 85.5%;
+}
+
+.form select:focus,
+.form input:focus {
+    outline: 2px solid var(--mauchu-slider);
+    border: none;
+}
+
+.btndangki {
+
+    background-color: var(--mau-do-btn);  
+    color: var(--trang);
+}
+.btn-primary {
+    box-shadow: 0 0 15px rgba(241, 162, 136, 0.779);
+}
+
+#footer {
+    color: var(--mauchu);
+}
+
+#footer .container-fluid {
+    background-color: #f9f5f5;
+}
+
+#footer .footer-box p {
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.footer-box .danh-sach-tour li {
+    list-style: none;
+}
+
+.danh-sach-tour li a {
+    text-decoration: none;
+    color: var(--mauchu);
+    font-size: 13px;
+}
+
+.mang-xh .danh-sach-tour {
+    display: flex;
+}
+
+.mang-xh .danh-sach-tour li a {
+    font-size: 24px;
+    margin-right: 16px;
+}
+
+.mang-xh .danh-sach-tour li a:hover {
+    opacity: 0.7;
+}
+
+.mang-xh .phone {
+    background-color: var(--mau-do-btn);
+    padding: 12px;
+    width: 150px;
+    color: var(--trang);
+    text-align: center;
+    border-radius: 10px;
+}

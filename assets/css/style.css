@@ -1,0 +1,472 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --mauchu: #2d4271;
+  --mauchu-slider: #4d4aef;
+  --trang: #fff;
+  --mau-do-btn: #fd5056;
+}
+
+.l_none {
+  list-style-type: none;
+}
+
+
+
+/* SLIDER */
+#slider {
+  position: relative;
+  display: block;
+}
+
+#slider .anh {
+  margin-top: 42px;
+}
+
+#slider .box {
+  display: block;
+  width: 75%;
+  height: auto;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.box .head-box {
+  background-color: rgba(45, 66, 113, 0.8);
+  border: none;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 15px 15px 0 0;
+}
+
+.box .box_tour {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--trang);
+}
+
+.head-box i {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.box-type_inp {
+  display: flex;
+}
+
+.box-type_inp .box-inp {
+  display: flex;
+  color: var(--mauchu);
+}
+
+.box-inp .box-type_inp-text {
+  margin-bottom: 0;
+}
+
+.box-inp .box-inp_item {
+  margin-left: 5px;
+}
+
+.box-type_inp .box-quantity {
+  margin-left: 25px;
+}
+
+.box-quantity .item-icon_number {
+  position: relative;
+  top: -0.5px;
+}
+
+.box-quantity .box-quantity_item {
+  position: relative;
+  top: -0.5px;
+  height: 18px;
+  width: 40px;
+}
+
+.body-box-dulich {
+  background-color: var(--trang);
+  margin: 0;
+  border-radius: 0 0 15px 15px;
+}
+
+.body-box-dulich .box-body-inp {
+  margin: 20px 0;
+}
+
+.box-body-inp .box-tour-dulich {
+  border: 2px solid orange;
+  border-radius: 10px;
+  padding: 5px;
+  height: 60px;
+  overflow: hidden;
+}
+
+.box-body-inp i {
+  font-size: 20px;
+  float: left;
+  margin: 0 15px;
+}
+
+.box-body-inp .ky_hieu {
+  margin: 0;
+  font-size: 13px;
+  color: var(--mauchu);
+}
+.box-body-inp .box-tour-dulich select {
+  outline: none;
+  border: none;
+  padding: 0 15px;
+  color: var(--mauchu);
+}
+
+.box-body-inp input {
+  border: none;
+  outline: none;
+  margin-left: 20px;
+  box-sizing: content-box;
+  max-width: 80%;
+  font-weight: 500;
+  color: var(--mauchu);
+}
+
+.body-box-dulich .box-body-search button {
+  border: none;
+}
+
+.body-box-dulich .box-body-search {
+  text-align: center;
+}
+
+.box-body-search input {
+  margin: 15px;
+  width: 20%;
+  padding: 10px;
+  background: linear-gradient(64.4deg, #244c7a 21.33%, #002f65 67.61%);
+  border: none;
+  border-radius: 15px;
+  border: 2px solid orange;
+  color: var(--trang);
+}
+
+.box-body-search input:active {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* SLIDER END */
+
+/* content */
+#content {
+  display: block;
+  margin: 50px auto;
+  color: var(--mauchu);
+}
+
+/* TOUR NỔI BẬT */
+#content .tour-noi-bat .bangkok,
+#content .tour-noi-bat .phu-quoc,
+#content .tour-noi-bat .hue,
+#content .tour-noi-bat .da-nang,
+#content .tour-noi-bat .quy-nhon,
+#content .tour-noi-bat .da-lat {
+  margin: 25px auto;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#content .tour-noi-bat .bangkok:hover,
+#content .tour-noi-bat .phu-quoc:hover,
+#content .tour-noi-bat .hue:hover,
+#content .tour-noi-bat .da-nang:hover,
+#content .tour-noi-bat .quy-nhon:hover,
+#content .tour-noi-bat .da-lat:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+
+.tour-noi-bat .bangkok img,
+.tour-noi-bat .phu-quoc img,
+.tour-noi-bat .hue img,
+.tour-noi-bat .da-nang img,
+.tour-noi-bat .quy-nhon img,
+.tour-noi-bat .da-lat img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px 15px 0 0;
+}
+
+.bangkok .noidung-p-tour-noi-bat,
+.phu-quoc .noidung-p-tour-noi-bat,
+.hue .noidung-p-tour-noi-bat,
+.da-nang .noidung-p-tour-noi-bat,
+.quy-nhon .noidung-p-tour-noi-bat,
+.da-lat .noidung-p-tour-noi-bat {
+  padding: 10px;
+}
+
+.noidung-p-tour-noi-bat p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.noidung-p-tour-noi-bat button {
+  border: none;
+  padding: 5px 15px;
+  background-color: var(--mau-do-btn);
+  color: var(--trang);
+  border-radius: 5px;
+}
+
+.noidung-p-tour-noi-bat button:hover {
+  background-color: rgba(237, 87, 61, 0.975);
+}
+
+.noidung-p-tour-noi-bat button:active {
+  box-shadow: 0 0 15px rgba(241, 162, 136, 0.779);
+}
+/* tour nổi bật end */
+
+/* Khám phá*/
+.kham-pha {
+  margin: 40px auto;
+}
+
+.kham-pha .row-noidung-kp {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row-noidung-kp .noidung-kp {
+  padding-right: 0;
+}
+
+.kham-pha .row-noidung-kp .noidung-kp_nen {
+  padding: 75% 5%;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+
+.kham-pha .row-noidung-kp .noidung-kp_nen:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.noidung-kp .noidung-kp_nen b {
+  color: var(--trang);
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+  position: absolute;
+  bottom: 0;
+}
+
+/* ưu đãi */
+#content .uu-dai {
+  margin: 40px auto;
+}
+
+.uu-dai .row-noi-dung-ud {
+  margin-top: 25px;
+}
+
+.uu-dai .box-ud img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+/* ưu đãi end */
+
+/* địa điểm ưu thích */
+.dd-uu-thich {
+  margin: 40px auto;
+}
+
+.dd-uu-thich .row-noi-dung-ddut {
+  margin-top: 25px;
+}
+
+.noidung-ddut .box-ddut img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.noidung-ddut .box-ddut h5 {
+  margin-bottom: 0;
+}
+/* địa điểm ưu thích end */
+
+/* banner */
+
+#banner {
+  margin: 50px 0;
+}
+
+#banner img {
+  width: 100%;
+  height: auto;
+}
+
+#footer {
+  color: var(--mauchu);
+}
+
+#footer .container-fluid {
+  background-color: #f9f5f5;
+}
+
+#footer .footer-box p {
+  margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.footer-box .danh-sach-tour li {
+  list-style: none;
+}
+
+.danh-sach-tour li a {
+  text-decoration: none;
+  color: var(--mauchu);
+  font-size: 13px;
+}
+
+.mang-xh .danh-sach-tour {
+  display: flex;
+}
+
+.mang-xh .danh-sach-tour li a {
+  font-size: 24px;
+  margin-right: 16px;
+}
+
+.mang-xh .danh-sach-tour li a:hover {
+  opacity: 0.7;
+}
+
+.mang-xh .phone {
+  background-color: var(--mau-do-btn);
+  padding: 12px;
+  width: 150px;
+  color: var(--trang);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.Modal {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+
+.Modal.Open {
+  display: flex;
+}
+
+.Modal .Modal-container {
+  background: var(--trang);
+  color: var(--mauchu);
+  width: 80%;
+  position: relative;
+  animation: Modaltruotvao ease 0.8s;
+}
+
+.Modal-container .Modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 8px 16px;
+  color: var(--trang);
+  cursor: pointer;
+  opacity: 0.8;
+  font-weight: 400;
+}
+
+.Modal-container .Modal-close:hover {
+  opacity: 1;
+  background-color: var(--mau-do-btn);
+}
+
+.Modal .Modal-header {
+  color: var(--trang);
+  background-color: var(--mauchu-slider);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.Modal-header .icon-md-header {
+  margin-right: 5px;
+}
+
+.md-ttll .Modal-label {
+  display: block;
+}
+
+.md-ttll input {
+  width: 100%;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid var(--mauchu);
+}
+
+.md-ttll input:focus {
+  outline: 2px solid var(--mauchu-slider);
+  border: none;
+}
+
+.md-ttll #Modalyeucau {
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid var(--mauchu);
+}
+
+.md-ttll #Modalyeucau:focus {
+  outline: 2px solid var(--mauchu-slider);
+  border: none;
+}
+
+.md-ttll .Modal-datve {
+  border: none;
+  padding: 5px 15px;
+  background-color: var(--mau-do-btn);
+  color: var(--trang);
+  border-radius: 5px;
+  font-weight: 600;
+  margin: 15px auto;
+}
+
+.md-ttll .Modal-datve:active {
+  box-shadow: 0 0 15px rgba(241, 162, 136, 0.779);
+}
+
+@keyframes Modaltruotvao {
+  from {
+    opacity: 0;
+    transform: translateY(-185px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

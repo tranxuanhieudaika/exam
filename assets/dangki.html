@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí</title>
+    <link rel="stylesheet" href="js/select.dataTables.min.css">
+    <!-- End plugin css for this page -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_header.css">
+    <link rel="stylesheet" href="css/reponsive_style.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div class="container-fluid">
+                <div class="row head">
+                    <div class="head-mb">
+                        <img src="img/logo.jpg" alt="" class="logo-header">
+                        <h3><a href="index.html">Hieujet Air</a></h3>
+                    </div>
+                    <div id="mobile-menu" class="nav-0">
+                        <i class="ti-menu f-menu"></i>
+                        <div id="nav-mot" class="nav-1">
+                            <ul class="nav">                               
+                                <li class="l-first"><a href="giare.html">Hieujet khuyến mãi</a></li>
+                                <li class="l-first"><a href="gioithieu.html">Giới thiệu</a></li>
+                                <li class="l-first"><a href="lienhe.html">Liên hệ</a></li>
+                                <li class="l-first l-service">
+                                    <a href="#">Dịch vụ chuyến bay</a>
+                                    <ul class="nav_list-dichvu list-flex">
+                                        <li class="nav_dichvu-items">
+                                            <h6 class="dichvu_items-head">Mua hành lý, suất ăn, chọn chỗ ngồi và hơn thế nữa...</h6>
+                                            <p class="dichvu_items-content">Đặt trước dịch vụ tiện ích để tận hưởng chuyến bay một cách trọn vẹn</p>
+                                        </li>
+                                        <li class="nav_dichvu-items">
+                                            <h6 class="dichvu_items-head">Bảo hiểm</h6>
+                                            <p class="dichvu_items-content">Thật yên tâm và thoải mái với các chương trình
+                                            bảo hiểm uy tín đến từ các đối tác tin cậy của Hieujet</p>
+                                        </li>
+                                        <li class="nav_dichvu-items">
+                                            <h6 class="dichvu_items-head">Khách sạn</h6>
+                                            <p class="dichvu_items-content">Sẵn sàng tận hưởng những ưu đãi giảm giá đến 70% các khách sạn trên toàn thế giới</p>
+                                        </li>
+                                        <li class="nav_dichvu-items">
+                                            <h6 class="dichvu_items-head">Săn vé giá rẽ</h6>
+                                            <p class="dichvu_items-content">Nhanh tay săn vé máy bay Hieujet giá tốt nhât! Tìm kiếm các chặn bay tốt nhất!</p>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="search">
+                        <form action="#">
+                            <input type="text" required placeholder="Tìm kiếm..." class="ti-search">
+                            <i class="ti-search icon-serch_header"></i>
+                        </form>
+                    </div>
+                    <div class="sign-in-up">
+                        <a href="dangnhap.html" class="ti-user"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="content">
+            <div class="container">
+                <div class="row tieu-de">
+                    <div class="col-lg-4 offset-lg-4 col-md-12 col-sm-12">
+                        <div class="box-tieu-de">
+                            <h3>ĐĂNG KÍ HỘI VIÊN</h3>
+                        </div>
+                    </div>                    
+                </div>
+
+                <form method="post" class="form-dang-ky row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <p class="ghi-chu-form">Để hoàn tất đăng ký Hội viên Hieujet Air, quý khách vui lòng điền đầy đủ thông tin vào mẫu dưới đây và nhấn vào nút đăng ký. Xin chân thành cảm ơn quý khách hàng.</p>
+                    </div>
+                    
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="form-hoten form">
+                            <label for="hoten">Họ tên (*):</label>
+                            <input type="text" id="hoten" name="hoten" class="form-control txthoten" required>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="form-didong form">
+                            <label for="didong">Di động (*):</label> 
+                            <input type="text" id="didong" name="sodienthoai" class="form-control txtsodienthoai" required>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="form-ngaysinh form">
+                            <label for="ngaysinh">Ngày sinh:</label>
+                            <input type="date" id="ngaysinh" name="ngaysinh" class="form-control txtngaysinh">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="form-gioitinh form">
+                            <label for="gioitinh">Giới tính:</label> 
+                            <select name="gioitinh" id="gioitinh" class="form-control cbgioitinh">
+                                <option value="0">Nam</option>
+                                <option value="1">Nữ</option>
+                            </select>
+                        </div>                      
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="form-email form">
+                            <label for="email">Email:</label> 
+                            <input type="text" id="email" name="email" class="form-control txtemail" autocomplete="username">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="form-dia-chi form">
+                            <label for="dia-chi">Địa chỉ:</label> 
+                            <input type="text" name="diachi" id="diachi" name="diachi" class="form-control txtdiachi">
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="form-username form">
+                            <label for="username">Tên đăng nhập:</label> 
+                            <input type="text" name="username" id="username" name="username" class="form-control txtusername">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="form-mat-khau form">
+                            <label for="mat-khau">Mật khẩu (*):</label> 
+                            <input type="password" name="matkhau" id="mat-khau" class="form-control txtmatkhau" required autocomplete="new-password">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="form-nhaplai-mat-khau form">
+                            <label for="nhaplai-mat-khau">Nhập lại mật khẩu (*):</label> 
+                            <input autocomplete="new-password" type="password" name="matkhau" id="nhaplai-mat-khau" class=" form-control txtnhaplaimatkhau" required>
+                        </div>
+                    </div>
+                    <input type="submit" class="btn btn-danger btn-block mt-4 btndangki" id="btndangki" name="btndangki" value="Đăng ký">
+                    
+                </form>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6 footer-box">
+                            <div class="dulich-trongnuoc ">
+                                <p>Du lịch trong nước</p>
+                                <ul class="danh-sach-tour">
+                                    <li><a href="">Hà Nội</a></li>
+                                    <li><a href="">Hạ Long</a></li>
+                                    <li><a href="">Huế</a></li>
+                                    <li><a href="">Đà Nẵng</a></li>
+                                    <li><a href="">Phú Quốc</a></li>
+                                    <li><a href="">Cần Thơ</a></li>
+                                    <li><a href="">Bà Rịa Vũng Tàu</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-6 footer-box">
+                            <div class="dulich-nuocngoai ">
+                                <p>Du lịch nước ngoài</p>
+                                <ul class="danh-sach-tour" >                                                                        
+                                    <li><a href="">Trung Quốc</a></li>
+                                    <li><a href="">Thái Lan</a></li>
+                                    <li><a href="">Hàn Quốc</a></li>
+                                    <li><a href="">Singapore</a></li>
+                                    <li><a href="">Hoa Kỳ</a></li>
+                                    <li><a href="">Úc</a></li>
+                                    <li><a href="">Hà Lan</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-6 footer-box">
+                            <div class="dong-tour ">
+                                <p>Dòng Tour</p>
+                                <ul class="danh-sach-tour" >                                   
+                                    <li><a href="">Cao cấp</a></li>
+                                    <li><a href="">Tiêu chuẩn</a></li>
+                                    <li><a href="">Tiết kiệm</a></li>
+                                    <li><a href="">Giá tốt</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-6 col-sm-6 footer-box">
+                            <div class="lien-he">
+                                <p>Liên Hệ </p>
+                                <ul class="danh-sach-tour">
+                                    <li><a href="">190 Pasteur, Phường Võ Thị Sáu, Quận 3, TP
+                                    HCM</a></li>
+                                    <li><a href="">(+84 28) 3822 8898</a></li>
+                                    <li><a href="">(+84 28) 3829 9142</a></li>
+                                    <li><a href="">info@traveldiv.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-6 footer-box">
+                            <div class="thong-tin">
+                                <p>Thông tin</p>
+                                <ul class="danh-sach-tour">
+                                    <li><a href="">Tạp chí du lịch</a></li>
+                                    <li><a href="">Cẩm nang du lịch</a></li>
+                                    <li><a href="">Tin tức</a></li>
+                                    <li><a href="">Sitemap</a></li>
+                                    <li><a href="">FAQs</a></li>
+                                    <li><a href="">Chính sách riêng tư</a></li>
+                                    <li><a href="">Thỏa thuận sử dụng</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-6 footer-box">
+                            <div class="mang-xh">
+                                <p>Mạng xã hội</p>
+                                <ul class="danh-sach-tour">
+                                    <li><a href=""><i class="ti-facebook"></i></a></li>
+                                    <li><a href=""><i class="ti-twitter"></i></a></li>
+                                    <li><a href=""><i class="ti-youtube"></i></a></li>
+                                    <li><a href=""><i class="ti-instagram"></i></a></li>
+                                </ul>
+
+                                <div class="phone">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <b>1900-1999</b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var mobileMenu = document.getElementById('mobile-menu');
+        var navMot = document.getElementById('nav-mot');
+        
+        mobileMenu.onclick = function() {
+            var isClosed = navMot.style.display = 'none'
+            if (isClosed) {
+                navMot.style.display = 'block';
+            }else {
+                navMot.style.display = 'none';
+            }
+            
+        }       
+    </script>
+    
+</body>
+    <script src="js/dangki.js"></script>
+    <script src="js/common.js"></script>
+</html>

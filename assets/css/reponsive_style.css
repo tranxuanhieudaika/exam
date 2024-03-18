@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --mauchu: #2d4271;
+    --mauchu-slider: #4d4aef;
+    --trang: #fff;
+    --mau-do-btn: #fd5056;
+}
+
+
+.l_none {
+    list-style-type: none;
+}
+
+@media (min-width: 500px) and (max-width: 575px) {
+    #header .logo-header {
+        width: 40px;
+    }    
+
+    .head h3 a {
+        font-size: 15px;
+    }
+
+    .head .nav-0 {
+        display: flex;
+    }
+
+    .nav-0 .f-menu {
+        display: block;
+        display: flex;
+        margin: auto 10px;
+    }
+
+    .nav-0 .nav-1 {
+        display: none;
+    }
+
+    #header .nav {
+        display: block;
+    }
+    
+
+    #header .nav a {
+        font-size: 13px;
+    }
+
+    #header .nav .l-first {
+        margin: 0 5px;
+    }
+
+    .nav .l_show .diadiem {
+        max-width: 300px;
+        top: 25px;
+    }
+
+
+    .search {  
+        border: none;
+    }
+
+    .search input {
+        padding: 5px 10px;
+        display: none;
+    }
+
+    #slider .box {
+        display: none;
+    }
+
+    .row-noidung-kp .noidung-kp {
+        margin-bottom: 15px;
+    }
+
+    .noidung-kp .noidung-kp_nen b {
+        bottom: 16px;
+    }
+
+    .uu-dai .row-noi-dung-ud .noidung-ud {
+        margin-bottom: 16px;
+    }
+
+    .Modal-body .md-ttll #Modalyeucau {
+        width: 100%;
+    }
+
+}
+
+
+/* mobile */
+@media (min-width: 576px) and (max-width: 767px){
+    #header .logo-header {
+        width: 40px;
+    }    
+
+    .head h3 a {
+        font-size: 15px;
+    }
+
+    .head .nav-0 {
+        display: flex;
+    }
+
+    .nav-0 .f-menu {
+        display: block;
+        display: flex;
+        margin: auto 10px;
+    }
+
+    .nav-0 .nav-1 {
+        display: none;
+    }
+
+    #header .nav {
+        display: block;
+    }
+    
+
+    #header .nav a {
+        font-size: 13px;
+    }
+
+    #header .nav .l-first {
+        margin: 0 5px;
+    }
+
+    .nav .l_show .diadiem {
+        max-width: 300px;
+        top: 25px;
+    }
+
+
+    .search {  
+        border: none;
+    }
+
+    .search input {
+        padding: 5px 10px;
+        display: none;
+    }
+
+    #slider .box {
+        display: none;
+    }
+
+    .row-noidung-kp .noidung-kp {
+        margin-bottom: 15px;
+    }
+
+    .noidung-kp .noidung-kp_nen b {
+        bottom: 16px;
+    }
+
+    .uu-dai .row-noi-dung-ud .noidung-ud {
+        margin-bottom: 16px;
+    }
+
+    .Modal-body .md-ttll #Modalyeucau {
+        width: 100%;
+    }
+
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 991px){
+    #header .logo-header {
+        width: 40px;
+    }
+
+    .head h3 a {
+        font-size: 15px;
+    }
+
+    #header .nav a {
+        font-size: 13px;
+    }
+
+    #header .nav li {
+        margin: 0 5px;
+    }
+
+    .nav .l_show .diadiem {
+        max-width: 300px;
+        top: 25px;
+    }
+
+    .search {  
+        border: none;
+    }
+
+    .search input {
+        padding: 5px 10px;
+        display: none;
+    }
+
+    #slider .box {
+        display: none;
+        
+    }
+
+    .row-noidung-kp .noidung-kp {
+        margin-bottom: 15px;
+    }
+
+    .noidung-kp .noidung-kp_nen b {
+        bottom: 16px;
+    }
+
+    .uu-dai .row-noi-dung-ud .noidung-ud {
+        margin-bottom: 16px;
+    }
+
+    .Modal-body .md-ttll #Modalyeucau {
+        width: 100%;
+    }
+    
+    #content .md-bo {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+
+ }
+
+
+@media (min-width: 1200px) {
+    
+ }
